@@ -1,0 +1,23 @@
+
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# React / Node.js
+**/node_modules/
+**/dist/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+
+# Local development configuration
+FoodExpress.API/appsettings.json
+FoodExpress.API/appsettings.Development.json
+FoodExpress.API/Properties/launchSettings.json
